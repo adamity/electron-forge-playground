@@ -87,7 +87,7 @@ module.exports = {
           name: 'electron-forge-playground-release'
         },
         draft: false,
-        prerelease: true
+        prerelease: false
       }
     }
   ],

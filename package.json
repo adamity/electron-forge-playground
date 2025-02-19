@@ -1,7 +1,7 @@
 {
   "name": "electron-forge-playground",
   "productName": "Electron Forge Playground",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A sandbox project to experiment with Electron Forge, test features, and explore integrations.",
   "main": ".webpack/main",
   "scripts": {

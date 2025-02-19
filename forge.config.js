@@ -78,4 +78,17 @@ module.exports = {
       [FuseV1Options.OnlyLoadAppFromAsar]: true,
     }),
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'adamity',
+          name: 'electron-forge-playground-release'
+        },
+        draft: false,
+        prerelease: true
+      }
+    }
+  ],
 };

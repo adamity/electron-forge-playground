@@ -1,7 +1,7 @@
 {
   "name": "electron-forge-playground",
   "productName": "Electron Forge Playground",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sandbox project to experiment with Electron Forge, test features, and explore integrations.",
   "main": ".webpack/main",
   "scripts": {
@@ -21,6 +21,7 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.6.1",
     "@electron-forge/plugin-fuses": "^7.6.1",
     "@electron-forge/plugin-webpack": "^7.6.1",
+    "@electron-forge/publisher-github": "^7.7.0",
     "@electron/fuses": "^1.8.0",
     "@vercel/webpack-asset-relocator-loader": "^1.7.3",
     "css-loader": "^6.11.0",
@@ -35,6 +36,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.1"
+    "electron-squirrel-startup": "^1.0.1",
+    "update-electron-app": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamity/electron-forge-playground-release.git"
   }
 }

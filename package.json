@@ -1,8 +1,8 @@
 {
-  "name": "my-app-2",
-  "productName": "my-app-2",
+  "name": "electron-forge-playground",
+  "productName": "Electron Forge Playground",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "A sandbox project to experiment with Electron Forge, test features, and explore integrations.",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",

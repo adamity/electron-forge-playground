@@ -84,7 +84,7 @@ module.exports = {
       config: {
         repository: {
           owner: 'adamity',
-          name: 'electron-forge-playground-release'
+          name: 'electron-forge-playground-releases'
         },
         draft: false,
         prerelease: false

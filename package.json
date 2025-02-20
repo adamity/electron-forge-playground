@@ -41,6 +41,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamity/electron-forge-playground-release.git"
+    "url": "https://github.com/adamity/electron-forge-playground-releases.git"
   }
 }
